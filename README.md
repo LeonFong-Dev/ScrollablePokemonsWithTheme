@@ -1,14 +1,14 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+# AND101 Project 7 - CYOAPI Part 3: Beautified
 
 Submitted by: **Leon Fong**
 
-Time spent: **7** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Summary
 
-**Scrollable Pokemon Cards** is an android app that **Scroll through random Pokemon cards**
+**ScrollablePokemonWithTheme** is an android app that **Now scroll pokemon with a new theme!**
 
 If I had to describe this project in three (3) emojis, they would be: **emojis here**
 
@@ -18,15 +18,16 @@ If I had to describe this project in three (3) emojis, they would be: **emojis h
 
 The following REQUIRED features are completed:
 
-- [X] Make an API call to an API of your choice using AsyncHTTPClient
-- [X] Implement a RecyclerView to display a list of entries from the API
-- [X] Display at least three (3) pieces of data for each RecyclerView item
+- [X] App contains a RecyclerView that displays a list of scrollable data
+- [X] App displays at least two (2) pieces of data for each RecyclerView item
+- [X] Use a downloadable font with custom color and size
+- [X] Modify the theme of the app in `themes.xml`
+- [X] Define and apply at least one style in **either** `themes.xml` or a new file `styles.xml`
 
 The following STRETCH features are implemented:
 
-- [ ] Add a UI element for the user to interact with API further
-- [ ] Show a `Toast` or `Snackbar` when an item is clicked
-- [ ] Add item dividers with `DividerItemDecoration`
+- [ ] Update the night theme to use different versions of styles when in dark mode
+- [ ] Use different drawables when in dark mode
 
 The following EXTRA features are implemented:
 
@@ -36,9 +37,9 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='pokemonRecyclerViewDemo.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='pokemonThemesDemo.gif' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **ScreenToGif**
+GIF created with **your chosen GIF tool**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -47,11 +48,11 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-Learned how to implement RecyclerView, YAY!
+Ya applied a cool theme!
 
 ## License
 
-Copyright **2025** **Leon Fong**
+Copyright **2025** **LeonFong**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
